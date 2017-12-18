@@ -17,7 +17,8 @@
 		}
 		.c2
 		{
-			border:1px solid gray
+			border:1px solid gray;
+			background-color:#fff;
 		}
 		.c2 a
 		{
@@ -67,7 +68,7 @@
 			<a href="#">Learn more</a>
 			
 		 </div>
-		 		 <div class="container c2"> 
+		 	<div class="container c2"> 
 			<h4> Grammarly for Windows</h4>
 			<p> Grammarly’s native app will be right at home on your desktop.
 			Access your documents or start a new project with one simple click.<p>
