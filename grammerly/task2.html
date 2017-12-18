@@ -17,8 +17,14 @@
 		}
 		.c2
 		{
-			border:1px solid gray;
+			margin:0px 0px 20px 40px;
 			background-color:#fff;
+			padding:25px;
+		}
+		.c2 h4
+		{
+			width:80%;
+			
 		}
 		.c2 a
 		{
@@ -30,6 +36,16 @@
 			color:#2bb673;
 		    text-decoration:underline;
 		}
+		.c3 button:hover
+		{
+			background-color:linear-gradient(180deg,#ea6756 0,#d0362d);
+		}
+		.c3 button 
+		{
+			border-radius:30px;
+			float:right;
+			background:linear-gradient(180deg,#e04f42 0,#d0352c);
+		}
 	</style>
   <title>Task 2</title>
   <meta charset="utf-8">
@@ -40,36 +56,41 @@
 </head>
 <body>
 
-<div class ="row">
+<div class ="row" style="background-color:rgb(240, 240, 240)">
 	<div class = "col-sm-2 container" style="background-color:#333333">
 		<h2 style="color:white;margin:40px 65px;"> grammarly</h2>
 		<div class="list-group c1" style="margin-left:60px;">
-			<a href="#" class="list-group-item ">My grammarly </a>
+			<p><span class="glyphicons glyphicons-home" style="background-color:#fff"></span><a href="#" class="list-group-item ">My grammarly </a>
 			<a href="#" class="list-group-item "> Profile</a>
 			<a href="#" class="list-group-item "> Apps<span class="badge">2</span></a>
 			<a href="#" class="list-group-item "> Premium</a>
 			<a href="#" class="list-group-item "> Log out</a>
 			<a href="#" class="list-group-item" style="padding-top:569px"> Support</a>
+			</p>
 		</div>
 	</div>
-	<div class="container col-sm-10" style="background-color:rgb(240, 240, 240)">
+	<div class="container col-sm-10" >
 		 <h1 style="padding:41px"> Grammarly Apps</h1>
-		 <div class="container c2"> 
+		 <div class="container c2 c3"> 
 			<h4> Grammarly for chrome</h4>
+			<button type="button" class="btn btn-danger btn-lg " style="background-color:#e5f7ef;color:#2bb673;">Active</button>
 			<p> Grammarly’s free browser extension helps you write mistake-free in Gmail, Facebook, WordPress,
 			Linkedin, and anywhere else you write on the Web.<p>
 			<a href="#">Learn more</a>
+			
 		 </div>
 		 
-		 <div class="container c2"> 
+		 <div class="container c2 c3"> 
 			<h4> Grammarly for Microsoft Office</h4>
+			<button type="button" class="btn btn-danger btn-lg" >Install</button>
 			<p> If you prefer to write documents using Microsoft® Word, then installing Grammarly’s add-in is a must
 			. As a bonus, this add-in also integrates with Outlook™ to help you ensure your emails are grammatically correct before you hit send.<p>
 			<a href="#">Learn more</a>
 			
 		 </div>
-		 	<div class="container c2"> 
+		 	<div class="container c2 c3" style="margin-bottom:200px"> 
 			<h4> Grammarly for Windows</h4>
+			<button type="button" class="btn btn-danger btn-lg">Install</button>
 			<p> Grammarly’s native app will be right at home on your desktop.
 			Access your documents or start a new project with one simple click.<p>
 			<a href="#">Learn more</a>
