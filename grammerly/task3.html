@@ -2,8 +2,60 @@
 <html lang="en">
 <head>
 	<style>
+	    .c1 a.list-group-item
+		{	
+			font-family: Lato,sans-serif;
+			color:#c3c3c3;
+			background-color:#323439;
+			border:none;
+			font-size:18px;
+		}
+		 .c1 a.list-group-item:hover
+		{	
+			font-family: Lato,sans-serif;
+			color:#f4f4f4;
+			background-color:#323439;
+		}
+		
+		.c2 a 
+		{
+			font-family: Lato,sans-serif;
+			color:#c3c3c3;
+			background-color:#323439;
+			text-decoration:none;
+			font-size:18px;
+		}
+		.c2 a:hover 
+		{
+			font-family: Lato,sans-serif;
+			color:#f4f4f4;
+			background-color:#323439;
+			text-decoration:none;
+
+		}
+		.c3
+		{
+			font-family: Lato,sans-serif;
+			margin: 0px 114px 20px 25px;
+			background-color:white;
+			padding:26px 26px 26px 80px;
+			
+		}
+		.c3 button 
+		{
+			border-radius:30px;
+			float:right;
+			background:linear-gradient(180deg,#e04f42 0,#d0352c);
+		}
+		.c3 button:hover
+		{
+			background-color:linear-gradient(180deg,#ea6756 0,#d0362d);
+		}
+		
+		
+	
 	</style>
-  <title>Task 2</title>
+  <title>Task 2.2</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -12,20 +64,20 @@
 </head>
 <body>
 
-<div class="container">
-	<div class="row">
-			<div class="col-sm-2">
+<div class="container-fluid" style="background-color:rgb(240, 240, 240);margin:0px;height:974px">
+	<div class="row" >
+			<div class="col-sm-2 " style="background-color:#323439;height:974px;width:300px">
 			     
 					<div class="row">
 						<div class="col-sm-12">
-							<h2>grammarly</h2>
+							<h3  style="color:white;margin:40px 65px;">grammarly</h3>
 						</div>
 					</div >
 					
 					<div class="row"> 
-						<div class="col-sm-12"> 
-							<div class="list-group">
-								<a href="#" class="list-group-item ">My grammarly </a>
+						<div class="col-sm-12" style="padding:0px 75px "> 
+							<div class="list-group c1 " >
+								<a href="#" class="list-group-item ">My grammarly</a>
 								<a href="#" class="list-group-item "> Profile</a>
 								<a href="#" class="list-group-item "> Apps<span class="badge">2</span></a>
 								<a href="#" class="list-group-item "> Premium</a>
@@ -36,8 +88,10 @@
 					</div>
 					
 					<div class="row">
-						<div class="col-sm-12">
+						<div class="col-sm-12 " style="padding:0px 90px;" >
+							<div class="c2" style="padding-top:576px">
 							<a href="#" > Support</a>
+							</div>
 						</div>
 					</div >
 				
@@ -46,10 +100,76 @@
 			
 			<div class="col-sm-10">
 					<div class="row">
-						<div class="col-sm-12"> 
-							<h2>Grammarly Apps</h2>
+						<div class="col-sm-12" style="padding:23px 41px 0px 44px"> 
+							<h1 style="font-size:45px;font-family:Proxima Nova Soft,sans-serif;">Grammarly Apps</h1>
 						</div>
 					</div>
+					
+					<div class="row">
+						<div class="col-sm-2">
+							<img src="chrome.png" width="40px" height="40px">
+						</div>
+						
+						<div class="col-sm-7" >
+							<div class="c3" >
+							<h4> Grammarly for chrome</h4>
+							<p> Grammarly’s free browser extension helps you write mistake-free in Gmail, Facebook, WordPress,
+								Linkedin, and anywhere else you write on the Web.<p>
+							<a href="#">Learn more</a>
+							</div>
+						 </div>
+						 <div class="col-sm-3"> 
+							<button type="button" class="btn btn-danger btn-lg " style="background-color:#e5f7ef;color:#2bb673;">Active</button>
+
+						 </div>
+					</div>
+					
+					<div class="row">
+						
+						<div class="col-sm-11" style="margin-left:65px">
+						
+						<div class="row" style="background-color:white;padding-top:30px">
+						
+							<div class="col-sm-2" style="background-color:white;padding:0;width:50px"> 
+								<img src="ms office.ico" width="40px" height="40px" style="float:right">
+							</div>
+						
+						
+						  <div class="col-sm-9" style="padding:0px;">
+								<div class="c3" style="padding:0px">
+									<h4> Grammarly for Microsoft Office</h4>
+									<p> If you prefer to write documents using Microsoft® Word, then installing Grammarly’s add-in is a must
+										. As a bonus, this add-in also integrates with Outlook™ to help you ensure your emails are grammatically correct before you hit send.<p>
+									<a href="#">Learn more</a>
+								</div>
+						  </div>
+						  <div class="col-sm-1" style="margin-left:138px">
+							<button type="button" class="btn btn-danger btn-lg " style="background-color:#e5f7ef;color:#2bb673;width:170px;border-radius:40px">Active</button>
+							</div>
+							</div>
+						  
+						</div>
+						
+						
+					</div>
+					
+					<div class="row">
+						<div class="col-sm-2">
+							<img src="windows.png" width="40px" height="40px">
+						</div>
+						<div class="col-sm-7" >
+						<div class="c3" >
+							<h4> Grammarly for Windows</h4>
+							<p> Grammarly’s native app will be right at home on your desktop.
+								Access your documents or start a new project with one simple click.<p>
+							<a href="#">Learn more</a>
+						</div>
+						</div>
+						<div class="col-sm-3">
+							<button type="button" class="btn btn-danger btn-lg " style="background-color:#e5f7ef;color:#2bb673;">Active</button>
+						</div>
+					</div>
+					
 			</div>
 	</div>
 
