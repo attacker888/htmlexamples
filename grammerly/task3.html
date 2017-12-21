@@ -16,6 +16,10 @@
 			margin-right:15px;
 			
 		}
+		.c1 a.list-group-item:nth-of-type(3)
+		{
+			padding-right: 83px;
+		}
 		 .c1 a.list-group-item:hover
 		{	
 			font-family: Lato,sans-serif;
@@ -82,9 +86,61 @@
 			height:38px;
 			background-repeat:no-repeat;
 		}
-		
-		
-		
+		.cf1						/* container-fluid 1*/
+		{
+			background-color:rgb(240, 240, 240);
+			margin:0px;
+			height:925px;
+		}
+		.col1  						  /* col-sm-2*/
+		{
+			background-color:#323439;
+			height:976px;
+			width:300px;
+		}
+		.gra_bg_r						/*grammarly bg img */
+		{
+			margin:50px 0px 70px 15px;
+		}
+		.gra_bg_r div
+		{
+			padding-left:45px;
+		}
+		.li_col	                 /* list*/
+		{
+			padding:0px 37px !important;
+		}
+		.li_col div
+		{
+			width:230px;   /* CAN clash with c1*/
+		}
+		.sup_row							/*	Support link*/
+		{
+			margin-top:533px;
+		}
+		.sup_row div div
+		{
+			padding:0px 54px;
+		}
+		.sup_row div div a img
+		{
+			margin-right:15px;
+		}
+		.col2
+		{
+			height:976px;
+			background-color:#F6F6F6;
+		}
+		.gra_head
+		{
+			padding:23px 41px 0px 67px;
+		}
+		.body
+		{
+			margin-bottom:18px;
+		}
+		.body div
+
 		
 	
 	</style>
@@ -98,23 +154,23 @@
 </head>
 <body>
 
-<div class="container-fluid" style="background-color:rgb(240, 240, 240);margin:0px;height:925px">
+<div class="container-fluid cf1">
 	<div class="row">
-			<div class="col-sm-2" style="background-color:#323439;height:976px;width:300px">
+			<div class="col-sm-2 col-xs-1 col-md-2 col-lg-2 col1">
 			     
-					<div class="row" style="margin:50px 0px 70px 15px">
-						<div class="col-sm-12"  >
+					<div class="row gra_bg_r" >
+						<div class="col-sm-12 col-xs-12"  >
 							<div class="c6">
 							</div>
 						</div>
 					</div>
 					
 					<div class="row"> 
-						<div class="col-sm-12" style="padding:0px 37px "> 
-							<div class="list-group c1 " style="width:230px">
-								<a href="#" class="list-group-item"> <img src="https://denali-static.grammarly.com/files/8b97739ec229628f8d5a4ba62348c0f7/myGrammarly_off.png" style="margin-right:15px">My grammarly</a>
-								<a href="#" class="list-group-item "> <img src="https://denali-static.grammarly.com/files/ca1999971de4be330629a06846a46194/profile_off.png">Profile</a>
-								<a href="#" class="list-group-item " style="padding-right: 83px"> <img src="https://denali-static.grammarly.com/files/4f6a858d7cebbd5669ff8b74ece64c33/apps_off.png">Apps<span class="badge">2</span></a>
+						<div class="col-sm-12 col-xs-12 li_col"> 
+							<div class="list-group c1" >
+								<a href="#" class="list-group-item"><img src="https://denali-static.grammarly.com/files/8b97739ec229628f8d5a4ba62348c0f7/myGrammarly_off.png">My grammarly</a>
+								<a href="#" class="list-group-item "><img src="https://denali-static.grammarly.com/files/ca1999971de4be330629a06846a46194/profile_off.png">Profile</a>
+								<a href="#" class="list-group-item "><img src="https://denali-static.grammarly.com/files/4f6a858d7cebbd5669ff8b74ece64c33/apps_off.png">Apps<span class="badge">2</span></a>
 								<a href="#" class="list-group-item "><img src="https://denali-static.grammarly.com/files/729c0f278ee767b6317337e56c112718/premium.png"> Premium</a>
 								<a href="#" class="list-group-item "><img src="https://denali-static.grammarly.com/files/0eb8ceb55df4418017e63f2d1061cdeb/logout.png"> Log out</a>
 							</div>
@@ -122,10 +178,10 @@
 
 					</div>
 					
-					<div class="row" style="margin-top:533px">
-						<div class="col-sm-12 " style="padding:0px 54px;" >
-							<div class="c2" >
-							<a href="#" > <img src="https://denali-static.grammarly.com/files/cd4966ea0711710d4a9ec06672438d36/help_hover.png" style="margin-right:15px;">Support</a>
+					<div class="row sup_row" >
+						<div class="col-sm-12 col-xs-12">
+							<div class="c2">
+							<a href="#" > <img src="https://denali-static.grammarly.com/files/cd4966ea0711710d4a9ec06672438d36/help_hover.png";>Support</a>
 							</div>
 						</div>
 					</div >
@@ -133,25 +189,25 @@
 			</div>
 			
 			
-			<div class="col-sm-10" style="height:976px;background-color:#F6F6F6">
-			<div class="container-fluid">
+			<div class="col-sm-10 col-xs-10 col2">
+			  <div class="container-fluid">
 					<div class="row">
-						<div class="col-sm-12" style="padding:23px 41px 0px 67px"> 
+						<div class="col-sm-12 col-xs-12 gra_head"> 
 							<h1 style="font-size:45px;font-family:Proxima Nova Soft,sans-serif;">Grammarly Apps</h1>
 						</div>
 					</div>
 					
-					<div class="row" style="margin-bottom:18px">
+					<div class="row body">
 					
-						<div class="col-sm-10" style="margin-left:64px;">
+						<div class="col-sm-10 col-xs-10">
 					 
 							<div class="row" style="background-color:white;padding-top:23px">
 						
-								<div class="col-sm-1" style="background-color:white;padding:0;margin-left:15px">
+								<div class="col-sm-1 col-xs-1" style="background-color:white;padding:0;margin-left:15px">
 										<center><img src="chrome.png" width="40px" height="40px" ></center>
 								</div>
 						
-								<div class="col-sm-9" style="padding:0px;">
+								<div class="col-sm-9 col-xs-9" style="padding:0px;">
 										<div class="c3" style="padding:0px">
 												<h4 style="font-size:24px"> Grammarly for chrome</h4>
 												<p style="font-size:14px"> Grammarly’s free browser extension helps you write mistake-free in Gmail, Facebook, WordPress,
@@ -160,7 +216,7 @@
 										</div>
 								</div>
 							
-								<div class="col-sm-1 "> 
+								<div class="col-sm-1 col-xs-1"> 
 									<div >
 									    
 										<button type="button" class="btn  btn-lg " style="background-color:#e5f7ef;color:#2bb673;width:170px;border-radius:100px;">
@@ -177,16 +233,16 @@
 					
 					<div class="row " style="margin-bottom:18px">
 						
-						<div class="col-sm-10" style="margin-left:64px;">
+						<div class="col-sm-10 col-xs-10" style="margin-left:64px;">
 						
 							<div class="row" style="background-color:white;padding-top:23px">
 						
-									<div class="col-sm-1" style="background-color:white;padding:0px;margin-left:15px"> 
+									<div class="col-sm-1 col-xs-1" style="background-color:white;padding:0px;margin-left:15px"> 
 										<center><img src="ms office.ico" width="40px" height="40px"></center>
 									</div>
 						
 						
-									<div class="col-sm-9" style="padding:0px;margin-left:5px">
+									<div class="col-sm-9 col-xs-9" style="padding:0px;margin-left:5px">
 											<div class="c3" style="padding:0px">
 												<h4 style="font-size:24px"> Grammarly for Microsoft Office</h4>
 												<p style="font-size:14px"> If you prefer to write documents using Microsoft® Word, then installing Grammarly’s add-in is a must
@@ -194,7 +250,7 @@
 												<a href="#" style="color:#2BB673">Learn more</a>
 											</div>
 									</div>
-									<div class="col-sm-1">
+									<div class="col-sm-1 col-xs-1">
 									  <div class="c4">
 										<button type="button" class="btn  btn-lg " >Install</button>
 									</div>
@@ -232,6 +288,8 @@
 							</div>						
 						</div>							
 					</div>
+					
+					
 					</div> 	
 			</div>
 	</div>
